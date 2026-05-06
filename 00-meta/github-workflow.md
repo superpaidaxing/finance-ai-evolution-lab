@@ -1,4 +1,4 @@
-# GitHub Workflow：完全在线迭代方法
+# GitHub 工作流：完全在线迭代方法
 
 ## 1. 不依赖本地同步的维护方式
 
@@ -6,7 +6,7 @@
 
 1. 打开任意 Markdown 文件。
 2. 点击铅笔图标编辑。
-3. 修改后点击 Commit changes。
+3. 修改后点击提交修改。
 4. 用 Issue 记录待办、研究问题和实验计划。
 5. 用 GitHub Projects 做长期路线图。
 
@@ -16,16 +16,16 @@
 
 列：
 
-- Backlog
-- This Week
-- In Progress
-- Review
-- Done
-- Archived
+- 待处理
+- 本周
+- 进行中
+- 待复盘
+- 已完成
+- 已归档
 
 ### 视图 2：季度路线图
 
-按 Quarter 分组：
+按季度分组：
 
 - 2026-Q2
 - 2026-Q3
@@ -34,49 +34,53 @@
 
 ### 视图 3：能力地图
 
-按 Track 分组：
+按主线分组：
 
-- Finance
-- AI
-- Use Case
-- Governance
-- Lab
-- Output
+- 金融基础
+- AI 基础
+- 银行用例
+- 风险治理
+- 实验
+- 输出
 
 ## 3. Issue 标签建议
 
-- `track:finance`
-- `track:ai`
-- `track:use-case`
-- `track:governance`
-- `track:lab`
-- `track:output`
-- `depth:L1`
-- `depth:L2`
-- `depth:L3`
-- `depth:L4`
-- `depth:L5`
-- `status:weekly`
-- `status:quarterly`
+建议用中文标签，必要时保留英文前缀方便排序：
 
-## 4. Commit 规范
+- `主线:金融基础`
+- `主线:AI基础`
+- `主线:银行用例`
+- `主线:风险治理`
+- `主线:实验`
+- `主线:输出`
+- `深度:L1`
+- `深度:L2`
+- `深度:L3`
+- `深度:L4`
+- `深度:L5`
+- `状态:本周`
+- `状态:季度`
 
-建议格式：
+## 4. 提交说明建议
+
+GitHub 不强制使用英文提交说明。为了自己看得懂，建议用中文：
 
 ```text
-docs: add reading note for NIST AI RMF
-case: add KYC genai use case
-lab: add complaint classification experiment
-review: add 2026-W20 weekly review
-roadmap: update Q3 focus
+文档：新增 NIST AI 风险管理框架阅读笔记
+用例：新增客户身份识别大模型用例
+实验：新增投诉文本分类实验记录
+复盘：新增 2026 年第 20 周周复盘
+路线图：更新第三季度重点方向
 ```
+
+如果以后参与开源项目，再按对方项目规范使用英文提交说明。
 
 ## 5. 每周操作流程
 
-1. 打开 Project 看板。
-2. 从 Backlog 挑 1-3 个 Issue 到 This Week。
+1. 打开 GitHub Project 看板。
+2. 从“待处理”挑 1-3 个 Issue 到“本周”。
 3. 完成文档或实验。
-4. 关闭 Issue。
+4. 关闭或更新 Issue。
 5. 更新 `weekly-review.md`。
 6. 如果有新问题，创建新 Issue，不要打断当前主线。
 

@@ -1,4 +1,4 @@
-# ServerChan Notification：用 Server 酱接收 Devin 通知
+# Server 酱通知：用 Server 酱接收 Devin 通知
 
 本项目可以用 Server 酱把 Devin 定时任务结果推送到微信/手机。
 
@@ -50,7 +50,7 @@ SERVERCHAN_SENDKEY
 
 ## 4. Devin 定时任务中的用法
 
-在 Scheduled Session 的 prompt 末尾加入：
+在定时任务 prompt 末尾加入：
 
 ```text
 任务完成后，如果环境变量 SERVERCHAN_SENDKEY 存在，请运行：

@@ -1,6 +1,6 @@
-# Devin Schedule Automation：如何用 Devin 做定时任务
+# Devin 定时任务：如何用 Devin 做定时任务
 
-Devin 支持 Scheduled Sessions，可以按计划自动启动 Devin 会话，适合做长期学习项目的提醒、资料整理、周报生成和 GitHub 更新。
+Devin 支持“定时会话”，可以按计划自动启动 Devin 会话，适合做长期学习项目的提醒、资料整理、周报生成和 GitHub 更新。
 
 官方文档：
 
@@ -25,16 +25,16 @@ Devin 支持 Scheduled Sessions，可以按计划自动启动 Devin 会话，适
 
 ## 2. 邮件通知
 
-Scheduled Sessions 支持 Email notifications：
+Devin 定时会话支持邮件通知：
 
 - Always：每次运行后都发邮件。
 - On failure only：只在失败时发邮件。
 - Never：不发邮件。
 
-如果你希望它像学习助理一样提醒你，建议选择：
+如果你主要使用 Server 酱收手机通知，建议：
 
-- 每周任务：Always
-- 每日提醒：On failure only 或不建议太频繁
+- Devin 邮件通知：On failure only
+- Server 酱通知：每次任务完成都发送
 
 ## 2.1 Server 酱通知
 
@@ -71,19 +71,20 @@ Prompt：
 请更新 GitHub 仓库 superpaidaxing/finance-ai-evolution-lab。
 
 任务：
-1. 阅读 README.md、00-meta/roadmap.md、00-meta/weekly-execution-plan.md。
+1. 阅读 README.md、00-meta/roadmap.md、00-meta/weekly-execution-plan.md、00-meta/source-recommendations.md、00-meta/serverchan-notification.md。
 2. 根据项目目标，为本周选择一个金融 + AI 学习主题。
-3. 在 00-meta/weekly-review.md 中追加一段“本周建议主题、推荐阅读、建议产出”。
-4. 如果需要新增资料，请优先使用公开资料来源：NIST、BIS/Basel、McKinsey、MIT Sloan、UK Finance。
-5. 不要使用任何真实客户数据或内部银行资料。
-6. 提交一个 PR，不要直接合并。
-7. 总结本周我应该每天做什么。
-8. 如果环境变量 SERVERCHAN_SENDKEY 存在，请用 scripts/notify_serverchan.py 发送 Server 酱通知；不要暴露 key。
+3. 在 00-meta/weekly-review.md 中追加一段“本周建议主题、推荐阅读、建议产出、每天行动清单”。
+4. 如需新增资料，请优先使用公开来源：NIST、BIS/Basel、McKinsey、MIT Sloan、UK Finance。
+5. 不要使用任何真实客户数据、内部银行资料、账号密钥或敏感信息。
+6. 建分支并提交一个 PR，不要直接合并 main。
+7. 最终总结本周用户每天应该做什么。
+8. 任务完成后，如果环境变量 SERVERCHAN_SENDKEY 存在，请运行：python scripts/notify_serverchan.py --title "金融AI周计划完成" --desp "本周金融 AI 学习主题、每日行动清单和 GitHub PR 已生成。请查看 Devin 会话与 PR。" --short "周计划完成"。如果发送失败，请说明失败原因，但不要暴露 SERVERCHAN_SENDKEY。
 ```
 
 通知：
 
-- Email notifications: Always
+- Devin 邮件通知：只在失败时通知
+- Server 酱通知：任务完成后通知
 
 ## 4. 推荐定时任务 2：每月金融 AI 趋势雷达
 
@@ -103,11 +104,13 @@ Prompt：
 4. 在 08-reading-notes/ 下创建一篇月度趋势笔记。
 5. 在 09-career-and-output/ 下创建一篇可进一步编辑的月度文章草稿。
 6. 提交 PR，不要直接合并。
+7. 如果环境变量 SERVERCHAN_SENDKEY 存在，请发送 Server 酱通知；不要暴露 key。
 ```
 
 通知：
 
-- Email notifications: Always
+- Devin 邮件通知：只在失败时通知
+- Server 酱通知：任务完成后通知
 
 ## 5. 推荐定时任务 3：每周 Issue 清单整理
 
@@ -126,13 +129,15 @@ Prompt：
 3. 如果 weekly-review.md 没有更新，创建一个草稿提醒。
 4. 不要做大规模重构。
 5. 提交 PR 或给出清晰建议。
+6. 如果环境变量 SERVERCHAN_SENDKEY 存在，请发送 Server 酱通知；不要暴露 key。
 ```
 
 通知：
 
-- Email notifications: Always
+- Devin 邮件通知：只在失败时通知
+- Server 酱通知：任务完成后通知
 
-## 6. 如何创建 Scheduled Session
+## 6. 如何创建定时会话
 
 方式一：从 Devin 输入框创建
 
