@@ -1,4 +1,4 @@
-# 06 Data Engineering：金融 AI 数据与工程化
+# 06 金融 AI 数据与工程化
 
 ## 重点
 

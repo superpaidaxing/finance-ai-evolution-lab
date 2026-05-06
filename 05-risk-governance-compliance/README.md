@@ -1,4 +1,4 @@
-# 05 Risk Governance Compliance：金融 AI 风险治理与合规
+# 05 金融 AI 风险治理与合规
 
 金融 AI 的长期深度，很大一部分来自治理能力。
 

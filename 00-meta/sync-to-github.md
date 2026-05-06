@@ -1,25 +1,25 @@
-# Sync to GitHub：之后如何同步到 GitHub
+# 同步到 GitHub：之后如何同步到 GitHub
 
-当前项目已经在本地整理为标准 GitHub 仓库结构。后续有三种同步方式。
+当前项目已经整理为标准 GitHub 仓库结构。后续有三种同步方式。
 
 ## 方式一：GitHub 网页端上传，最简单
 
 适合不想处理命令行的时候。
 
 1. 打开 https://github.com/new
-2. Repository name 建议填写：`finance-ai-evolution-lab`
-3. Description 可填写：
+2. 仓库名建议填写：`finance-ai-evolution-lab`
+3. 仓库描述可填写：
 
    ```text
    一个面向银行从业者的金融 + AI 长期进化式学习与实践项目
    ```
 
-4. 选择 Public 或 Private。
+4. 选择公开仓库或私有仓库。
 5. 不要勾选 “Add a README file”，因为本项目已经有 README。
 6. 创建仓库。
 7. 点击 “uploading an existing file”。
 8. 上传压缩包解压后的所有文件和目录。
-9. Commit changes。
+9. 提交修改。
 
 ## 方式二：如果本机 GitHub CLI 已登录
 
@@ -52,16 +52,16 @@ git push -u origin main
 1. 打开文件。
 2. 点击铅笔图标。
 3. 编辑 Markdown。
-4. Commit changes。
+4. 提交修改。
 5. 用 Issues 管理待学习主题。
 6. 用 Projects 管理路线图。
 
 ## 建议创建的 GitHub Project 字段
 
-- Status：Backlog / This Week / In Progress / Review / Done / Archived
-- Track：Finance / AI / Use Case / Governance / Lab / Output
-- Depth：L1 / L2 / L3 / L4 / L5
-- Quarter：2026-Q2、2026-Q3 等
+- 状态：待处理 / 本周 / 进行中 / 待复盘 / 已完成 / 已归档
+- 主线：金融基础 / AI 基础 / 银行用例 / 风险治理 / 实验 / 输出
+- 深度：L1 / L2 / L3 / L4 / L5
+- 季度：2026-Q2、2026-Q3 等
 
 ## 首次同步后的建议动作
 

@@ -1,4 +1,4 @@
-# AI Risk Checklist
+# AI 风险检查清单
 
 ## 1. 用例适当性
 

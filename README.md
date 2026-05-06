@@ -1,4 +1,4 @@
-# Finance AI Evolution Lab
+# 金融 AI 长期进化实验室
 
 > 一个面向银行从业者的“金融 + AI”长期进化式学习与实践项目。目标不是追热点，而是把 18 年银行业务经验转化为可复利、可沉淀、可验证、可公开迭代的知识与作品体系。
 
@@ -44,7 +44,7 @@
 - 一篇阅读笔记
 - 一个业务案例拆解
 - 一个 AI 工具实验
-- 一个 Prompt / RAG / Agent 原型
+- 一个提示词 / 检索增强生成 / 智能体原型
 - 一个风险治理清单
 - 一个阶段复盘
 
@@ -55,7 +55,7 @@
 - 零售银行：客户画像、智能营销、财富顾问、信贷审批、贷后管理。
 - 公司银行：授信辅助、企业画像、票据/供应链金融、现金管理。
 - 风险管理：信用风险、市场风险、操作风险、流动性风险、压力测试。
-- 合规与反洗钱：KYC、AML、交易监测、可疑行为解释、监管报告。
+- 合规与反洗钱：客户身份识别、反洗钱、交易监测、可疑行为解释、监管报告。
 - 运营与客服：智能客服、投诉处理、流程自动化、知识库助手。
 - 管理驾驶舱：经营分析、风险预警、会议纪要、制度问答。
 
@@ -63,9 +63,9 @@
 
 - Python、数据分析、统计学与机器学习基础。
 - 金融机器学习：评分卡、风控模型、时间序列、异常检测。
-- 大语言模型：Prompt Engineering、RAG、Agent、工具调用、多模态。
+- 大语言模型：提示词工程、检索增强生成、智能体、工具调用、多模态。
 - 评估体系：准确率、召回率、稳定性、幻觉率、可解释性、业务收益。
-- AI 工程：数据管道、向量数据库、API、自动化工作流、实验记录。
+- AI 工程：数据管道、向量数据库、接口、自动化工作流、实验记录。
 
 ### C. 治理与监管主线
 
@@ -74,7 +74,7 @@
 - 第三方模型和云服务风险
 - 可解释性、公平性、稳健性
 - AI 项目立项、审批、上线、监控和退役机制
-- Basel、NIST AI RMF、金融监管与行业报告跟踪
+- 巴塞尔委员会、国际清算银行、NIST AI 风险管理框架、金融监管与行业报告跟踪
 
 ### D. 个人输出主线
 
@@ -89,7 +89,7 @@
 .
 ├── 00-meta/                         # 项目总控、路线图、复盘、GitHub 工作流
 ├── 01-finance-foundation/           # 金融与银行业务基础体系
-├── 02-ai-ml-foundation/             # AI/ML/LLM 技术基础
+├── 02-ai-ml-foundation/             # AI、机器学习与大模型基础
 ├── 03-financial-ai-topics/          # 金融 AI 重点专题
 ├── 04-banking-use-cases/            # 银行真实场景用例库
 ├── 05-risk-governance-compliance/   # AI 风险治理、合规、监管
@@ -100,6 +100,8 @@
 ├── 10-archive/                      # 归档
 └── .github/ISSUE_TEMPLATE/          # GitHub Issue 模板
 ```
+
+说明：目录名保留英文，是为了兼容 GitHub、命令行和长期引用；目录里的正文尽量使用中文。
 
 ## 5. 每周最小行动
 
@@ -118,17 +120,17 @@
 1. 打开仓库文件。
 2. 点击右上角铅笔图标编辑。
 3. 修改 Markdown 内容。
-4. 提交 Commit。
+4. 提交修改。
 5. 用 Issue 管理待学习主题。
 6. 用 GitHub Projects 管理长期路线图。
 7. 每周固定做一次 `00-meta/weekly-review.md` 复盘。
 
 建议建立 GitHub Project 字段：
 
-- Status：Backlog / This Week / In Progress / Done / Archived
-- Track：Finance / AI / Use Case / Governance / Lab / Output
-- Depth：L1 入门 / L2 能解释 / L3 能设计 / L4 能验证 / L5 能输出
-- Quarter：2026-Q2、2026-Q3 等
+- 状态：待处理 / 本周 / 进行中 / 已完成 / 已归档
+- 主线：金融基础 / AI 基础 / 银行用例 / 风险治理 / 实验 / 输出
+- 深度：L1 入门 / L2 能解释 / L3 能设计 / L4 能验证 / L5 能输出
+- 季度：2026-Q2、2026-Q3 等
 
 ## 7. 首批启动任务
 
@@ -139,6 +141,10 @@
 - `00-meta/github-workflow.md`
 - `00-meta/first-30-issues.md`
 - `00-meta/sync-to-github.md`
+- `00-meta/weekly-execution-plan.md`
+- `00-meta/source-recommendations.md`
+- `00-meta/devin-schedule-automation.md`
+- `00-meta/serverchan-notification.md`
 
 ## 8. 长期判断标准
 
