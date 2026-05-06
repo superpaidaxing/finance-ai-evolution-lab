@@ -15,6 +15,7 @@ Devin 支持 Scheduled Sessions，可以按计划自动启动 Devin 会话，适
 - 每周自动更新 GitHub 仓库中的 `weekly-review.md` 草稿。
 - 每月自动生成一个月度总结草稿。
 - 定时创建 Devin 会话并通知你查看结果。
+- 如果配置了 `SERVERCHAN_SENDKEY`，还可以调用 Server 酱发送微信/手机通知。
 
 不建议完全自动做：
 
@@ -35,6 +36,29 @@ Scheduled Sessions 支持 Email notifications：
 - 每周任务：Always
 - 每日提醒：On failure only 或不建议太频繁
 
+## 2.1 Server 酱通知
+
+如果你更希望用 Server 酱接收手机通知，请先把 SendKey 保存为 Devin Secret：
+
+```text
+SERVERCHAN_SENDKEY
+```
+
+然后在定时任务 prompt 中要求 Devin 在任务完成后运行：
+
+```bash
+python scripts/notify_serverchan.py \
+  --title "金融AI任务完成" \
+  --desp "本次 Devin 定时任务已完成。请查看 Devin 会话和 GitHub PR。" \
+  --short "Devin 任务完成"
+```
+
+详细说明见：
+
+```text
+00-meta/serverchan-notification.md
+```
+
 ## 3. 推荐定时任务 1：每周金融 AI 学习助理
 
 频率：
@@ -54,6 +78,7 @@ Prompt：
 5. 不要使用任何真实客户数据或内部银行资料。
 6. 提交一个 PR，不要直接合并。
 7. 总结本周我应该每天做什么。
+8. 如果环境变量 SERVERCHAN_SENDKEY 存在，请用 scripts/notify_serverchan.py 发送 Server 酱通知；不要暴露 key。
 ```
 
 通知：

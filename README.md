@@ -142,6 +142,7 @@
 - `00-meta/weekly-execution-plan.md`
 - `00-meta/source-recommendations.md`
 - `00-meta/devin-schedule-automation.md`
+- `00-meta/serverchan-notification.md`
 
 ## 8. 长期判断标准
 
