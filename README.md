@@ -139,6 +139,9 @@
 - `00-meta/github-workflow.md`
 - `00-meta/first-30-issues.md`
 - `00-meta/sync-to-github.md`
+- `00-meta/weekly-execution-plan.md`
+- `00-meta/source-recommendations.md`
+- `00-meta/devin-schedule-automation.md`
 
 ## 8. 长期判断标准
 
