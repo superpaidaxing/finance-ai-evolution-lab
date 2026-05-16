@@ -26,6 +26,7 @@
 
 - `open-source-finance-ai-projects-batch-01.md`：第 1 批开源金融 AI 项目，覆盖金融大模型、智能体、量化投研、反欺诈、SEC 文件分析、银行 RAG 助手等方向。
 - `open-source-finance-ai-projects-batch-02.md`：第 2 批开源金融 AI 项目，重点补充金融文档解析、银行流水解析、反洗钱、KYC、信贷评分、金融 NLP、时间序列基础模型、支出分类和监管合规 RAG。
+- `open-source-finance-ai-projects-batch-03.md`：第 3 批开源金融 AI 项目，重点补充金融数据源、数据清洗、SEC/EDGAR 披露数据、XBRL 财报结构化、金融问答数据集、关系抽取、数据标注和金融大模型评测基准。
 
 ## 建议阅读方法
 
