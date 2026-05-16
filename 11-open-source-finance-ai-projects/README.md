@@ -29,6 +29,8 @@
 - `open-source-finance-ai-projects-batch-03.md`：第 3 批开源金融 AI 项目，重点补充金融数据源、数据清洗、SEC/EDGAR 披露数据、XBRL 财报结构化、金融问答数据集、关系抽取、数据标注和金融大模型评测基准。
 - `open-source-finance-ai-projects-batch-04.md`：第 4 批开源金融 AI 项目，重点补充中文金融大模型、金融评测、多智能体投研交易、SEC/财报 RAG、金融文档智能、银行流水处理和金融知识图谱。
 - `open-source-finance-ai-projects-batch-05.md`：第 5 批开源金融 AI 项目，重点补充金融数据接口、组合优化、金融机器学习、回测引擎、强化学习交易、因子分析、绩效归因和图欺诈检测。
+- `open-source-finance-ai-projects-batch-06.md`：第 6 批开源金融 AI 项目，重点补充量化绩效分析、全球金融数据接口、SEC EDGAR 工具链、金融情感分析、欺诈与反洗钱图算法、金融知识图谱、技术分析指标、策略回测框架和金融机器学习教程。
+- `open-source-finance-ai-projects-batch-07.md`：第 7 批开源金融 AI 项目，重点补充股票预测 Transformer、订单簿深度学习、银行流水与票据 OCR、可微分量化金融、事件驱动回测、交易日历、金融 NLP 数据集、财报/业绩会 RAG、金融研究 Agent、AI-ready 量化工具箱和 MCP 化金融工具。
 
 ## 建议阅读方法
 
