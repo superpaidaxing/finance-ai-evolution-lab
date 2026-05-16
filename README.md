@@ -98,6 +98,7 @@
 ├── 08-reading-notes/                # 论文、报告、书籍、课程笔记
 ├── 09-career-and-output/            # 文章、演讲、作品集、个人品牌
 ├── 10-archive/                      # 归档
+├── 11-open-source-finance-ai-projects/ # 开源金融 AI 项目库
 └── .github/ISSUE_TEMPLATE/          # GitHub Issue 模板
 ```
 
@@ -112,6 +113,7 @@
 - 做一个小实验并记录到 `07-labs/`
 - 更新一个风险治理清单到 `05-risk-governance-compliance/`
 - 写一篇阶段性观点到 `09-career-and-output/`
+- 拆解一个开源金融 AI 项目并记录到 `11-open-source-finance-ai-projects/`
 
 ## 6. GitHub 在线迭代方式
 
