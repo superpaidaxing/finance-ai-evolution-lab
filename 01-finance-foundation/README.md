@@ -7,8 +7,10 @@
 1. `banking-business-foundation-map.md`：先建立银行业务总览地图，理解银行是什么、资产负债表怎么看、业务如何分类、风险从哪里来、AI 可以接到哪里。
 2. `banking-business-foundation-deep-dive-01.md`：再深入理解商业银行、资产负债表、业务分类、风险、指标、数据流、监管和 AI 接口。
 3. `banking-core-products-and-processes-01.md`：进入核心业务，学习存款、贷款、支付清算和监管指标如何具体运转。
-4. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
-5. 后续专题文件：按零售银行、公司银行、风险管理、支付清算、监管指标、财报阅读等方向分批补充。
+4. `retail-and-corporate-banking-deep-dive-01.md`：进入客户经营主线，学习零售银行和公司银行的客户、产品、流程、指标、风险和 AI 接口。
+5. `risk-management-and-bank-financials-deep-dive-01.md`：把业务结果连接到风险管理和财报阅读，理解风险如何进入不良、拨备、资本、流动性和利润。
+6. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
+7. 后续专题文件：按财富管理、支付清算、反洗钱、银行数据治理、单家银行年报实战等方向分批补充。
 
 ## 主题
 
@@ -30,6 +32,8 @@
 - `banking-business-foundation-map.md`：第 1 批基础体系总览，覆盖 BF-001 至 BF-008。
 - `banking-business-foundation-deep-dive-01.md`：第 2 批深度拆解，进一步展开 BF-001 至 BF-008。
 - `banking-core-products-and-processes-01.md`：第 2 批核心业务专题，覆盖 CP-001 至 CP-004，包括存款、贷款、支付清算、监管指标。
+- `retail-and-corporate-banking-deep-dive-01.md`：第 3 批客户经营专题，覆盖 RB-001 至 RB-004、CB-001 至 CB-004。
+- `risk-management-and-bank-financials-deep-dive-01.md`：第 4 批风险与财报专题，覆盖 RM-001 至 RM-004、FR-001 至 FR-004。
 - `source-index.md`：资料来源索引和去重记录。
 
 ## 推荐沉淀方式

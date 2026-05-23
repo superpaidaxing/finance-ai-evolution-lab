@@ -19,6 +19,15 @@
 | FS-011 | 中国工商银行 2025 年度报告 / 年度业绩公告 | 中国工商银行 | 大型银行客户贷款、客户存款、投资、负债、净利息收入、手续费及佣金收入示例 | BF-002、BF-003、BF-005 | https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2026/2026032706.pdf |
 | FS-012 | 《存款保险条例》 | 国务院 / 中国人民银行 | 被保险存款、最高偿付限额、风险差别费率、早期纠正和风险处置 | CP-001、BF-007 | https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212542595840/index.html |
 | FS-013 | 支付清算系统知识问答：中国现代化支付系统 | 中国人民银行 | 大额实时支付系统、小额批量支付系统、清算账户管理、支付管理信息系统 | CP-003、BF-006 | http://fuzhou.pbc.gov.cn/fuzhou/126870/2174155/index.html |
+| FS-014 | 《银行保险机构消费者权益保护管理办法》 | 中国政府网 / 原银保监会 | 消费者权益保护、适当性管理、销售可回溯、个人信息保护、合作机构管理 | RB-001、RB-002、RB-003、RB-004 | https://www.gov.cn/gongbao/content/2023/content_5753317.htm |
+| FS-015 | 《商业银行互联网贷款管理暂行办法》 | 中国政府网 / 原银保监会 | 互联网贷款、风险数据、风险模型、线上授信、合作机构、贷款用途和额度 | RB-002、RB-003、RB-004 | https://www.gov.cn/zhengce/2020-07/17/content_5718706.htm |
+| FS-016 | 金融监管总局发布《固定资产贷款管理办法》《流动资金贷款管理办法》《个人贷款管理办法》 | 中国政府网 / 国家金融监督管理总局 | 信贷管理制度、固定资产贷款、流动资金贷款、个人贷款、线上办理和受托支付 | RB-002、CB-002、CB-003 | https://www.gov.cn/lianbo/bumen/202402/content_6929808.htm |
+| FS-017 | 《国务院办公厅关于做好金融“五篇大文章”的指导意见》 | 国务院办公厅 | 科技金融、绿色金融、普惠金融、养老金融、数字金融 | RB-002、CB-001、CB-002、CB-004 | https://www.gov.cn/zhengce/content/202503/content_7010604.htm |
+| FS-018 | 《银行业金融机构小微企业金融服务监管评价办法》 | 中国政府网 / 国家金融监督管理总局 | 小微企业金融服务、普惠金融、信贷投放、成本风险、服务结构、内控合规 | CB-001、CB-002、CB-003、CB-004 | https://www.gov.cn/zhengce/zhengceku/202411/content_6989676.htm |
+| FS-019 | 《商业银行金融资产风险分类办法》 | 中国政府网 / 原银保监会 / 中国人民银行 | 金融资产五级分类、真实性、及时性、审慎性、非零售和零售资产分类 | RM-002、FR-003 | https://www.gov.cn/gongbao/content/2023/content_5754542.htm |
+| FS-020 | 《银行保险机构操作风险管理办法》 | 中国政府网 / 国家金融监督管理总局 | 操作风险定义、治理责任、三道防线、管理工具、业务连续性、数据安全 | RM-001、RM-003、RM-004 | https://www.gov.cn/lianbo/bumen/202401/content_6923950.htm |
+| FS-021 | 《商业银行市场风险管理办法》 | 湖南省人民政府转载 / 国家金融监督管理总局 | 市场风险定义、治理架构、限额、计量、监测、控制和报告 | RM-003、FR-004 | http://www.hunan.gov.cn/zqt/zcsd/202506/t20250623_33717543.html |
+| FS-022 | Basel III: Finalising post-crisis reforms | Basel Committee on Banking Supervision / BIS | 风险加权资产、信用风险、操作风险、杠杆率、资本监管改革 | RM-001、RM-002、FR-004 | https://www.bis.org/bcbs/publ/d424.pdf |
 
 ## 已覆盖主题去重记录
 
@@ -36,6 +45,22 @@
 | CP-002 | 贷款业务 | `banking-core-products-and-processes-01.md` | 后续展开公司授信、零售信贷、小微信贷和贷后管理 |
 | CP-003 | 支付清算 | `banking-core-products-and-processes-01.md` | 后续展开银行卡、跨境支付、收单、反欺诈和反洗钱 |
 | CP-004 | 监管指标 | `banking-core-products-and-processes-01.md` | 后续展开指标公式、监管口径和银行年报阅读 |
+| RB-001 | 零售银行客户体系 | `retail-and-corporate-banking-deep-dive-01.md` | 后续只展开具体客群、产品和场景 |
+| RB-002 | 零售银行产品和流程 | `retail-and-corporate-banking-deep-dive-01.md` | 后续可展开信用卡、按揭、财富管理、养老金融 |
+| RB-003 | 零售银行数据、指标和风险 | `retail-and-corporate-banking-deep-dive-01.md` | 后续可展开反欺诈、消费者保护、个人信息保护 |
+| RB-004 | 零售银行 AI 应用接口 | `retail-and-corporate-banking-deep-dive-01.md` | 后续只做具体实验和用例 |
+| CB-001 | 公司银行客户体系 | `retail-and-corporate-banking-deep-dive-01.md` | 后续可展开大型集团、中型企业、小微、政府机构 |
+| CB-002 | 公司银行产品和流程 | `retail-and-corporate-banking-deep-dive-01.md` | 后续可展开贸易融资、现金管理、项目融资 |
+| CB-003 | 公司银行数据、指标和风险 | `retail-and-corporate-banking-deep-dive-01.md` | 后续可展开企业图谱、贷后预警、行业风险 |
+| CB-004 | 公司银行 AI 应用接口 | `retail-and-corporate-banking-deep-dive-01.md` | 后续只做客户经理助手、授信辅助等实验 |
+| RM-001 | 全面风险管理框架 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续可展开风险偏好、三道防线、风险治理 |
+| RM-002 | 信用风险管理 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续可展开评级、评分、减值、贷后预警 |
+| RM-003 | 市场、流动性和操作风险 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续可展开专项风险工具和压力测试 |
+| RM-004 | 模型风险与 AI 治理 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续可展开大模型治理清单 |
+| FR-001 | 银行财报阅读入口 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续做单家银行年报实战 |
+| FR-002 | 利润表和盈利能力 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开净息差、非息收入、成本收入比 |
+| FR-003 | 资产质量和拨备 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开五级分类、迁徙率和减值模型 |
+| FR-004 | 资本、流动性和同业对比 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开同业对比模板 |
 
 ## 后续优先补充来源
 
