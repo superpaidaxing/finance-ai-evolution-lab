@@ -5,8 +5,10 @@
 ## 推荐阅读顺序
 
 1. `banking-business-foundation-map.md`：先建立银行业务总览地图，理解银行是什么、资产负债表怎么看、业务如何分类、风险从哪里来、AI 可以接到哪里。
-2. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
-3. 后续专题文件：按零售银行、公司银行、风险管理、支付清算、监管指标等方向分批补充。
+2. `banking-business-foundation-deep-dive-01.md`：再深入理解商业银行、资产负债表、业务分类、风险、指标、数据流、监管和 AI 接口。
+3. `banking-core-products-and-processes-01.md`：进入核心业务，学习存款、贷款、支付清算和监管指标如何具体运转。
+4. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
+5. 后续专题文件：按零售银行、公司银行、风险管理、支付清算、监管指标、财报阅读等方向分批补充。
 
 ## 主题
 
@@ -26,6 +28,8 @@
 ## 当前文件
 
 - `banking-business-foundation-map.md`：第 1 批基础体系总览，覆盖 BF-001 至 BF-008。
+- `banking-business-foundation-deep-dive-01.md`：第 2 批深度拆解，进一步展开 BF-001 至 BF-008。
+- `banking-core-products-and-processes-01.md`：第 2 批核心业务专题，覆盖 CP-001 至 CP-004，包括存款、贷款、支付清算、监管指标。
 - `source-index.md`：资料来源索引和去重记录。
 
 ## 推荐沉淀方式
