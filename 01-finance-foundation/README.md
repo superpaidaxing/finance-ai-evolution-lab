@@ -9,8 +9,11 @@
 3. `banking-core-products-and-processes-01.md`：进入核心业务，学习存款、贷款、支付清算和监管指标如何具体运转。
 4. `retail-and-corporate-banking-deep-dive-01.md`：进入客户经营主线，学习零售银行和公司银行的客户、产品、流程、指标、风险和 AI 接口。
 5. `risk-management-and-bank-financials-deep-dive-01.md`：把业务结果连接到风险管理和财报阅读，理解风险如何进入不良、拨备、资本、流动性和利润。
-6. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
-7. 后续专题文件：按财富管理、支付清算、反洗钱、银行数据治理、单家银行年报实战等方向分批补充。
+6. `wealth-management-and-financial-markets-deep-dive-01.md`：学习银行如何连接客户资产、理财、代销、托管、债券投资、回购、同业和金融市场。
+7. `compliance-aml-and-regulatory-reporting-deep-dive-01.md`：学习合规、反洗钱、客户尽调、可疑交易、消费者保护、关联交易和监管报送。
+8. `bank-operations-internal-control-and-data-governance-deep-dive-01.md`：学习银行运营、账务、对账、内控、信息科技、外包、连续性和数据治理。
+9. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
+10. 后续专题文件：按单家银行年报实战、支付清算深挖、信贷案例拆解、反欺诈、养老金融等方向分批补充。
 
 ## 主题
 
@@ -34,6 +37,9 @@
 - `banking-core-products-and-processes-01.md`：第 2 批核心业务专题，覆盖 CP-001 至 CP-004，包括存款、贷款、支付清算、监管指标。
 - `retail-and-corporate-banking-deep-dive-01.md`：第 3 批客户经营专题，覆盖 RB-001 至 RB-004、CB-001 至 CB-004。
 - `risk-management-and-bank-financials-deep-dive-01.md`：第 4 批风险与财报专题，覆盖 RM-001 至 RM-004、FR-001 至 FR-004。
+- `wealth-management-and-financial-markets-deep-dive-01.md`：第 5 批财富管理与金融市场专题，覆盖 WM-001 至 WM-003、FM-001 至 FM-003。
+- `compliance-aml-and-regulatory-reporting-deep-dive-01.md`：第 6 批合规、反洗钱与监管报送专题，覆盖 CL-001 至 CL-005、RR-001。
+- `bank-operations-internal-control-and-data-governance-deep-dive-01.md`：第 7 批运营、内控与数据治理专题，覆盖 OP-001 至 OP-002、IC-001、IT-001、DG-001 至 DG-002。
 - `source-index.md`：资料来源索引和去重记录。
 
 ## 推荐沉淀方式

@@ -28,6 +28,23 @@
 | FS-020 | 《银行保险机构操作风险管理办法》 | 中国政府网 / 国家金融监督管理总局 | 操作风险定义、治理责任、三道防线、管理工具、业务连续性、数据安全 | RM-001、RM-003、RM-004 | https://www.gov.cn/lianbo/bumen/202401/content_6923950.htm |
 | FS-021 | 《商业银行市场风险管理办法》 | 湖南省人民政府转载 / 国家金融监督管理总局 | 市场风险定义、治理架构、限额、计量、监测、控制和报告 | RM-003、FR-004 | http://www.hunan.gov.cn/zqt/zcsd/202506/t20250623_33717543.html |
 | FS-022 | Basel III: Finalising post-crisis reforms | Basel Committee on Banking Supervision / BIS | 风险加权资产、信用风险、操作风险、杠杆率、资本监管改革 | RM-001、RM-002、FR-004 | https://www.bis.org/bcbs/publ/d424.pdf |
+| FS-023 | 《商业银行理财业务监督管理办法》 | 北京市政府转载 / 原银保监会 | 理财业务定义、非保本、产品分类、适当性、穿透监管、信息披露 | WM-001、WM-002、WM-003 | https://www.beijing.gov.cn/zhengce/zhengcefagui/201905/t20190522_61486.html |
+| FS-024 | 《商业银行理财子公司管理办法》 | 中国政府网 / 原银保监会 | 理财子公司、受托理财、公司治理、投资管理、风险管理、信息系统 | WM-002、WM-003 | https://www.gov.cn/zhengce/2018-12/02/content_5725830.htm |
+| FS-025 | 《商业银行代理保险业务管理办法》 | 中国政府网 / 原银保监会 | 银行代理保险、销售准入、信息系统、产品销售、消费者保护 | WM-001、WM-003、CL-004 | https://www.gov.cn/zhengce/zhengceku/2019-12/03/content_5457853.htm |
+| FS-026 | 《全国银行间债券市场债券交易管理办法》 | 中国人民银行 | 银行间债券市场、现券买卖、回购、交易合同、托管结算 | FM-001、FM-002 | https://www.pbc.gov.cn/jinrongshichangsi/147160/147358/147400/2847686/index.html |
+| FS-027 | 《中华人民共和国反洗钱法》 | 中国政府网 / 全国人大常委会 | 反洗钱基本制度、金融机构义务、风险相适应、客户权益保护 | CL-001、CL-002、CL-003 | https://www.gov.cn/yaowen/liebiao/202411/content_6985720.htm |
+| FS-028 | 《金融机构客户尽职调查和客户身份资料及交易记录保存管理办法》 | 中国人民银行 / 金融监管总局 / 证监会 | 客户尽职调查、受益所有人、交易记录保存、持续关注、强化尽调 | CL-002、CL-003、RR-001 | https://www.pbc.gov.cn/tiaofasi/144941/144957/5916164/index.html |
+| FS-029 | 《金融机构大额交易和可疑交易报告管理办法》 | 中国反洗钱监测分析中心 / 中国人民银行 | 大额交易报告、可疑交易监测、人工分析、报告记录、资料保存 | CL-003、RR-001 | https://camlmac.pbc.gov.cn/fxqzhongxin/3558093/3558113/3561784/index.html |
+| FS-030 | 《金融机构反洗钱和反恐怖融资监督管理办法》 | 中国人民银行 | 反洗钱内控、风险自评估、风险管理政策、系统和人员配置 | CL-001、CL-002、CL-003 | https://www.pbc.gov.cn/tiaofasi/144941/144957/4232619/index.html |
+| FS-031 | 《银行保险机构关联交易管理办法》 | 中国政府网 / 原银保监会 | 关联方识别、关联交易、穿透识别、利益输送防控、监管套利防控 | CL-005、IC-001 | https://www.gov.cn/zhengce/2022-01/14/content_5725786.htm |
+| FS-032 | 《商业银行内部控制指引》 | 中国政府网 / 原银监会 | 内部控制目标、全覆盖、制衡、审慎、岗位职责、监督整改 | CL-005、IC-001、OP-001 | https://www.gov.cn/gongbao/content/2015/content_2821645.htm |
+| FS-033 | 《中华人民共和国个人信息保护法》 | 国家统计局转载 / 全国人大常委会 | 个人信息处理规则、最小必要、敏感个人信息、个人权利、处理者义务 | CL-004、DG-002 | https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250310_1958923.html |
+| FS-034 | 《中华人民共和国数据安全法》 | 工业和信息化部转载 / 全国人大常委会 | 数据处理、数据安全、数据分类分级、数据安全保护义务 | DG-001、DG-002、IT-001 | https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_284b390b84484f10b0e43eeafaad0f6d.html |
+| FS-035 | 《中华人民共和国网络安全法》 | 中国人大网 | 网络运行安全、关键信息基础设施、网络信息安全、监测预警 | IT-001、DG-002 | http://www.npc.gov.cn/zgrdw/npc/zfjc/zfjcelys/2016-11/07/content_2034939.htm |
+| FS-036 | 《银行保险机构信息科技外包风险监管办法》 | 中国政府网 / 原银保监会 | 信息科技外包、外包治理、重要数据和个人信息、第三方风险 | IT-001、DG-002 | https://www.gov.cn/zhengce/zhengceku/2022-01/25/content_5670294.htm |
+| FS-037 | 《商业银行业务连续性监管指引》 | 上海市发展改革委转载 / 原银监会 | 业务连续性、重要业务、恢复目标、应急预案、演练和评估 | OP-001、IT-001 | https://fgw.sh.gov.cn/ys-hqjrfw-1.3.1.2/20240820/8351937cfd974abf9817bf4cc8163c70.html |
+| FS-038 | 《商业银行信息科技风险管理指引》 | 上海市发展改革委转载 / 原银监会 | 信息科技治理、信息科技风险、核心系统、审计、重大事故报告 | IT-001、DG-002 | https://fgw.sh.gov.cn/ys-hqjrfw-1.3.1.2/20240820/259eee9aff3e423e8b2d8a8613308189.html |
+| FS-039 | 《银行业金融机构数据治理指引》 | 原银保监会 | 数据治理定义、全覆盖、数据质量、数据价值、经营管理和监管数据 | DG-001、DG-002、RR-001 | https://www.itshenji.com/database/show?id=246 |
 
 ## 已覆盖主题去重记录
 
@@ -61,6 +78,24 @@
 | FR-002 | 利润表和盈利能力 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开净息差、非息收入、成本收入比 |
 | FR-003 | 资产质量和拨备 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开五级分类、迁徙率和减值模型 |
 | FR-004 | 资本、流动性和同业对比 | `risk-management-and-bank-financials-deep-dive-01.md` | 后续展开同业对比模板 |
+| WM-001 | 财富管理业务的客户逻辑 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续只展开具体客群和资产配置案例 |
+| WM-002 | 银行理财与资管业务 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续可展开理财产品说明书阅读和资管案例 |
+| WM-003 | 代销、保险、基金和托管 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续可展开代销质检、托管流程、产品准入清单 |
+| FM-001 | 金融市场业务框架 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续只展开外汇、衍生品、做市等专项 |
+| FM-002 | 债券投资、回购和同业业务 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续可展开单一工具案例和年报科目 |
+| FM-003 | 财富管理和金融市场 AI 接口 | `wealth-management-and-financial-markets-deep-dive-01.md` | 后续只做投研摘要、适当性检查等实验 |
+| CL-001 | 银行合规管理的业务含义 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续不再重复合规总定义，只做专项清单 |
+| CL-002 | 反洗钱与客户尽职调查 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续可展开 KYC/KYB 案例和受益所有人识别 |
+| CL-003 | 大额交易、可疑交易和监测系统 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续可展开交易监测规则和案例库 |
+| CL-004 | 消费者保护、销售合规和个人信息保护 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续可展开投诉、销售质检和数据授权 |
+| CL-005 | 关联交易、员工行为和内控合规 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续可展开案例和检查清单 |
+| RR-001 | 监管报送与监管数据质量 | `compliance-aml-and-regulatory-reporting-deep-dive-01.md` | 后续可展开具体监管报表口径 |
+| OP-001 | 银行运营体系 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开网点运营、集中作业和智能运营 |
+| OP-002 | 账户、交易、对账和差错处理 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开对账差错案例 |
+| IC-001 | 内部控制和三道防线落地 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开内控测试和整改管理 |
+| IT-001 | 信息科技、外包和业务连续性 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开灾备演练、外包评估和科技风险 |
+| DG-001 | 银行数据治理基础 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开数据标准、主数据和质量规则 |
+| DG-002 | AI 时代的数据底座和治理接口 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续只做具体 RAG、标签、权限和审计实验 |
 
 ## 后续优先补充来源
 
