@@ -12,8 +12,9 @@
 6. `wealth-management-and-financial-markets-deep-dive-01.md`：学习银行如何连接客户资产、理财、代销、托管、债券投资、回购、同业和金融市场。
 7. `compliance-aml-and-regulatory-reporting-deep-dive-01.md`：学习合规、反洗钱、客户尽调、可疑交易、消费者保护、关联交易和监管报送。
 8. `bank-operations-internal-control-and-data-governance-deep-dive-01.md`：学习银行运营、账务、对账、内控、信息科技、外包、连续性和数据治理。
-9. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
-10. 后续专题文件：按单家银行年报实战、支付清算深挖、信贷案例拆解、反欺诈、养老金融等方向分批补充。
+9. `payment-card-digital-channel-and-fraud-deep-dive-01.md`：学习支付账户、银行卡、收单、手机银行、网上银行、开放接口和交易反欺诈。
+10. `source-index.md`：查看本模块使用过的专业资料来源和去重记录。
+11. 后续专题文件：按单家银行年报实战、跨境支付、现金管理、信贷案例拆解、养老金融等方向分批补充。
 
 ## 主题
 
@@ -40,6 +41,7 @@
 - `wealth-management-and-financial-markets-deep-dive-01.md`：第 5 批财富管理与金融市场专题，覆盖 WM-001 至 WM-003、FM-001 至 FM-003。
 - `compliance-aml-and-regulatory-reporting-deep-dive-01.md`：第 6 批合规、反洗钱与监管报送专题，覆盖 CL-001 至 CL-005、RR-001。
 - `bank-operations-internal-control-and-data-governance-deep-dive-01.md`：第 7 批运营、内控与数据治理专题，覆盖 OP-001 至 OP-002、IC-001、IT-001、DG-001 至 DG-002。
+- `payment-card-digital-channel-and-fraud-deep-dive-01.md`：第 8 批支付、银行卡、数字渠道与反欺诈专题，覆盖 PS-001 至 PS-003、DC-001、FD-001。
 - `source-index.md`：资料来源索引和去重记录。
 
 ## 推荐沉淀方式

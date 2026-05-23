@@ -45,6 +45,14 @@
 | FS-037 | 《商业银行业务连续性监管指引》 | 上海市发展改革委转载 / 原银监会 | 业务连续性、重要业务、恢复目标、应急预案、演练和评估 | OP-001、IT-001 | https://fgw.sh.gov.cn/ys-hqjrfw-1.3.1.2/20240820/8351937cfd974abf9817bf4cc8163c70.html |
 | FS-038 | 《商业银行信息科技风险管理指引》 | 上海市发展改革委转载 / 原银监会 | 信息科技治理、信息科技风险、核心系统、审计、重大事故报告 | IT-001、DG-002 | https://fgw.sh.gov.cn/ys-hqjrfw-1.3.1.2/20240820/259eee9aff3e423e8b2d8a8613308189.html |
 | FS-039 | 《银行业金融机构数据治理指引》 | 原银保监会 | 数据治理定义、全覆盖、数据质量、数据价值、经营管理和监管数据 | DG-001、DG-002、RR-001 | https://www.itshenji.com/database/show?id=246 |
+| FS-040 | 《人民币银行结算账户管理办法》 | 中国人民银行 | 银行结算账户定义、单位账户、个人账户、账户开立和使用 | PS-001 | https://www.pbc.gov.cn/tiaofasi/144941/144957/2817125/index.html |
+| FS-041 | 《非银行支付机构监督管理条例》 | 国务院 / 中国政府网 | 非银行支付机构、支付业务许可、小额便民、用户权益、风险防控 | PS-001、PS-003 | https://www.gov.cn/zhengce/content/202312/content_6920724.htm |
+| FS-042 | 《商业银行信用卡业务监督管理办法》 | 中国政府网 / 原银监会 | 信用卡定义、发卡、收单、交易授权、账务处理、争议处理、风险管理 | PS-002 | https://www.gov.cn/zhengce/2011-01/13/content_5725819.htm |
+| FS-043 | 《关于进一步促进信用卡业务规范健康发展的通知》 | 中国政府网 / 原银保监会 / 中国人民银行 | 信用卡经营管理、发卡营销、授信管理、睡眠卡、消费者保护 | PS-002、FD-001 | https://www.gov.cn/zhengce/zhengceku/2022-07/07/content_5699827.htm |
+| FS-044 | 《银行卡收单业务管理办法》 | 中国人民银行 | 银行卡收单、特约商户、交易处理、资金结算、收单风险管理 | PS-003 | http://www.pbc.gov.cn/tiaofasi/144941/3581332/3587205/index.html |
+| FS-045 | 《中国人民银行关于印发〈条码支付业务规范（试行）〉的通知》 | 中国人民银行 | 条码支付、收单管理、跨行清算、商户实名制、交易风险监测 | PS-003、FD-001 | https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212544975749/index.html |
+| FS-046 | 《电子银行业务管理办法》 | 原银监会 / 横琴粤澳深度合作区转载 | 网上银行、手机银行、电话银行、自助渠道、电子银行风险管理 | DC-001 | https://www.hengqin.gov.cn/lab/flfg/bmgz/content/post_3708417.html |
+| FS-047 | 《中华人民共和国反电信网络诈骗法》 | 全国人大常委会 / 工业和信息化部转载 | 电信网络诈骗、金融治理、风险防控责任、涉诈风险安全评估 | FD-001 | https://www.miit.gov.cn/jgsj/zfs/fl/art/2022/art_d30139b442a141f48f05775d8c0b3cee.html |
 
 ## 已覆盖主题去重记录
 
@@ -96,6 +104,11 @@
 | IT-001 | 信息科技、外包和业务连续性 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开灾备演练、外包评估和科技风险 |
 | DG-001 | 银行数据治理基础 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续可展开数据标准、主数据和质量规则 |
 | DG-002 | AI 时代的数据底座和治理接口 | `bank-operations-internal-control-and-data-governance-deep-dive-01.md` | 后续只做具体 RAG、标签、权限和审计实验 |
+| PS-001 | 支付账户、银行结算账户和资金流基础 | `payment-card-digital-channel-and-fraud-deep-dive-01.md` | 后续只展开跨境支付、现金管理和具体账户风控案例 |
+| PS-002 | 银行卡与信用卡业务 | `payment-card-digital-channel-and-fraud-deep-dive-01.md` | 后续可展开信用卡经营指标、分期、催收和单项案例 |
+| PS-003 | 收单、商户和条码支付 | `payment-card-digital-channel-and-fraud-deep-dive-01.md` | 后续可展开商户准入清单、收单对账和小微信贷案例 |
+| DC-001 | 手机银行、网上银行和开放式数字渠道 | `payment-card-digital-channel-and-fraud-deep-dive-01.md` | 后续可展开开放银行、渠道体验和数字运营指标 |
+| FD-001 | 交易反欺诈和电信网络诈骗防控 | `payment-card-digital-channel-and-fraud-deep-dive-01.md` | 后续可展开反诈案例库、规则样例和模型评估实验 |
 
 ## 后续优先补充来源
 
@@ -105,7 +118,7 @@
 | 银行财报阅读 | 大型商业银行年报、上市银行财报、监管披露表 | 学习如何从报表看业务结构和风险 |
 | 零售银行 | 银行年报零售板块、消费者权益保护材料、信用卡/个贷监管材料 | 后续展开零售银行专题 |
 | 公司银行 | 银行年报公司金融板块、贸易融资、现金管理、供应链金融资料 | 后续展开公司银行专题 |
-| 支付清算 | 人民银行支付体系报告、网联/银联公开资料、跨境支付材料 | 后续展开支付清算专题 |
+| 支付清算 | 人民银行支付体系报告、网联/银联公开资料、跨境支付材料 | 已展开账户、银行卡、收单、条码支付和反欺诈；后续重点补跨境支付和现金管理 |
 | 风险管理 | 巴塞尔框架、世界银行风险分析、国内风险管理监管规则 | 后续展开信用、市场、操作、流动性风险 |
 
 ## 去重规则
