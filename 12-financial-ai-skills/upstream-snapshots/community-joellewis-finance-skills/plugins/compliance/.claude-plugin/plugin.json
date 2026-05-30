@@ -1,0 +1,17 @@
+{
+  "name": "compliance",
+  "description": "US securities regulatory guidance for broker-dealers and investment advisers. Covers FINRA, SEC, ERISA, FinCEN, and CFA Institute GIPS requirements. Guidance-only \u2014 no Python scripts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "compliance",
+    "regulatory",
+    "SEC",
+    "FINRA",
+    "ERISA",
+    "AML"
+  ]
+}

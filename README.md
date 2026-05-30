@@ -99,6 +99,7 @@
 ├── 09-career-and-output/            # 文章、演讲、作品集、个人品牌
 ├── 10-archive/                      # 归档
 ├── 11-open-source-finance-ai-projects/ # 开源金融 AI 项目库
+├── 12-financial-ai-skills/           # 金融 AI 开源 skill、agent plugin 与工作流分析
 └── .github/ISSUE_TEMPLATE/          # GitHub Issue 模板
 ```
 

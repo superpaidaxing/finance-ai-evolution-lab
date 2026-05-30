@@ -1,0 +1,16 @@
+{
+  "name": "wealth-management",
+  "description": "Investment knowledge for personal and institutional wealth management. Covers risk measurement, asset classes, valuation, portfolio construction, policy and planning, personal finance, behavioral finance, and reporting.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "investment",
+    "portfolio",
+    "risk",
+    "personal-finance",
+    "asset-classes"
+  ]
+}

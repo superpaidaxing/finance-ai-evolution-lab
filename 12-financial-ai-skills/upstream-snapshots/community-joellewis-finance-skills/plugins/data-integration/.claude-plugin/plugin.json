@@ -1,0 +1,16 @@
+{
+  "name": "data-integration",
+  "description": "Data foundations that every financial system depends on. Covers reference data management, market data feeds, integration patterns for financial systems, and data quality governance.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "data",
+    "reference-data",
+    "market-data",
+    "integration",
+    "data-quality"
+  ]
+}

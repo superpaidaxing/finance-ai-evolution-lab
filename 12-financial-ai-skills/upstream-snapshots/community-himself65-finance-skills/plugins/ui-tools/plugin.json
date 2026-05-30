@@ -1,0 +1,19 @@
+{
+  "name": "finance-ui-tools",
+  "description": "Generative UI design system for rendering interactive HTML/SVG widgets in Claude conversations.",
+  "version": "8.0.1",
+  "author": {
+    "name": "himself65"
+  },
+  "homepage": "https://github.com/himself65/finance-skills",
+  "repository": "https://github.com/himself65/finance-skills",
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "generative-ui",
+    "widgets",
+    "show-widget",
+    "visualization",
+    "design-system"
+  ]
+}
