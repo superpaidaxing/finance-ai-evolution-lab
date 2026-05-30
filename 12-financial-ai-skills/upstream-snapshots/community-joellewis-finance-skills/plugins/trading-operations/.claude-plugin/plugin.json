@@ -1,0 +1,16 @@
+{
+  "name": "trading-operations",
+  "description": "Order lifecycle from entry through settlement, plus operational and counterparty risk. Serves advisor, algorithmic, and client-direct trading contexts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "trading",
+    "order-management",
+    "settlement",
+    "execution",
+    "risk"
+  ]
+}

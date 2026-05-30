@@ -1,0 +1,83 @@
+---
+# Investment Banking Plugin Settings
+# Copy this file to .claude/investment-banking.local.md and customize
+
+# Your info
+name: "Your Name"
+title: "Vice President"
+group: "Technology M&A"
+firm: "Your Firm"
+email_signature: |
+  Best regards,
+  [Your Name]
+  [Title] | [Group]
+  [Firm]
+  [Phone]
+
+# Coverage focus
+sectors:
+  - "Enterprise Software"
+  - "Fintech"
+  - "Cybersecurity"
+verticals:
+  - "B2B SaaS"
+  - "Infrastructure"
+  - "AI/ML"
+
+# Deal parameters
+typical_deal_size_range: "$50M - $500M"
+transaction_types:
+  - "M&A Sell-side"
+  - "M&A Buy-side"
+  - "Capital Raise"
+  - "Strategic Advisory"
+
+# Active deals (for session reminders)
+active_mandates:
+  - name: "Project Alpine"
+    type: "Sell-side M&A"
+    stage: "Marketing"
+    next_milestone: "Management presentations"
+    date: "2024-01-20"
+  - name: "Project Summit"
+    type: "Buy-side"
+    stage: "Due Diligence"
+    next_milestone: "Submit revised LOI"
+    date: "2024-01-18"
+
+# Target tracking
+priority_targets:
+  - company: "Target Corp"
+    rationale: "Strategic fit for Client X"
+    status: "Initial outreach"
+  - company: "Growth Co"
+    rationale: "Platform acquisition candidate"
+    status: "Relationship building"
+
+# Valuation defaults
+default_valuation_methodologies:
+  - "Comparable Companies"
+  - "Precedent Transactions"
+  - "DCF"
+comps_multiples:
+  - "EV/Revenue"
+  - "EV/EBITDA"
+  - "EV/ARR"
+---
+
+# Notes
+
+Add deal-specific notes, market intel, or relationship context here.
+
+## Market Themes
+- [Theme 1]: [Implications for deals]
+- [Theme 2]: [Implications for deals]
+
+## Key Relationships
+- [Contact Name] @ [Company]: [Context]
+- [Contact Name] @ [Company]: [Context]
+
+## Recent Precedent Transactions
+| Target | Acquirer | Value | Multiple | Date |
+|--------|----------|-------|----------|------|
+| [Company] | [Buyer] | [$XXM] | [X.Xx] | [Date] |
