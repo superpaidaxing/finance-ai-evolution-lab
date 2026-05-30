@@ -1,0 +1,14 @@
+{
+  "name": "core",
+  "description": "Mathematical and statistical foundations required by all other plugins. Always installed \u2014 every plugin implicitly depends on core.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "math",
+    "statistics",
+    "foundations"
+  ]
+}

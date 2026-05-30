@@ -1,0 +1,16 @@
+{
+  "name": "advisory-practice",
+  "description": "Advisor-facing systems and workflows. Teaches Claude how advisor platforms work so it can help design, evaluate, or integrate with them. Covers the full advisor workflow from onboarding through reporting.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "advisor",
+    "wealth-management",
+    "front-office",
+    "crm",
+    "billing"
+  ]
+}

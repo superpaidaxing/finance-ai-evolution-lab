@@ -1,0 +1,16 @@
+{
+  "name": "client-operations",
+  "description": "Back-office account operations and servicing workflows. Covers the full account lifecycle from opening through maintenance, transfers, reconciliation, and corporate actions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joel Lewis",
+    "email": "joel@eleazar.dev"
+  },
+  "keywords": [
+    "back-office",
+    "account-management",
+    "transfers",
+    "reconciliation",
+    "corporate-actions"
+  ]
+}
