@@ -24,8 +24,9 @@
 2. 再读 `anthropic-official-skills-analysis-01.md`，了解 Anthropic 官方金融 skill 的金融场景、AI 价值、银行迁移方向和治理注意事项。
 3. 再读 `community-finance-ai-skills-analysis-02.md`，了解社区高星金融 skill 在实时资讯、行情、情绪、数据连接和工具化分析上的特色。
 4. 再读 `professional-finance-service-skills-analysis-03.md`，了解专业金融服务 skill 在财富管理、合规、交易运营、客户运营和数据集成上的结构化写法。
-5. 如需看原始 skill，进入 `upstream-snapshots/` 对应目录阅读 `SKILL.md`。
-6. 后续批次如果新增社区 skill，会继续使用 `FSK-xxx` 编号，不覆盖、不重复。
+5. 如果你觉得英文原始 skill 难读，先进入 `chinese-annotations/README.md`，按 `FSK-xxx` 找到每个 skill 的中文详细注释。
+6. 如需看原始 skill，进入 `upstream-snapshots/` 对应目录阅读 `SKILL.md`。
+7. 后续批次如果新增社区 skill，会继续使用 `FSK-xxx` 编号，不覆盖、不重复。
 
 ## 4. 使用边界
 

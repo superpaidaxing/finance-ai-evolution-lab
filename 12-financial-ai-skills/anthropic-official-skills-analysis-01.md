@@ -582,7 +582,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-056 `audit-support`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/audit-support/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/audit-support/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/audit-support/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/audit-support/SKILL.md`。
 - **原始定位**：官方描述：Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards. Use when generating testing workpapers, selecting audit samples, classifying control deficiencies, or preparing for internal or external audits.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -591,7 +591,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-057 `close-management`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/close-management/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/close-management/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/close-management/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/close-management/SKILL.md`。
 - **原始定位**：官方描述：Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing close activities by day.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -600,7 +600,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-058 `financial-statements`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/financial-statements/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/financial-statements/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/financial-statements/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/financial-statements/SKILL.md`。
 - **原始定位**：官方描述：Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis. Use when preparing a monthly or quarterly P&L, closing the books and need to flag material variances, comparing actuals to budget, building a financial summary for leadership review, or looking up GAAP presentation requirements and period-end adjustments.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -609,7 +609,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-059 `journal-entry`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/journal-entry/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/journal-entry/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/journal-entry/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/journal-entry/SKILL.md`。
 - **原始定位**：官方描述：Prepare journal entries with proper debits, credits, and supporting detail. Use when booking month-end accruals (AP, payroll, prepaid), recording depreciation or amortization, posting revenue recognition or deferred revenue adjustments, or documenting an entry for audit review.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -618,7 +618,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-060 `journal-entry-prep`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/journal-entry-prep/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/journal-entry-prep/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/journal-entry-prep/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/journal-entry-prep/SKILL.md`。
 - **原始定位**：官方描述：Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or any manual journal entry.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -627,7 +627,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-061 `reconciliation`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/reconciliation/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/reconciliation/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/reconciliation/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/reconciliation/SKILL.md`。
 - **原始定位**：官方描述：Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercompany reconciliations, or identifying and categorizing reconciling items.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -636,7 +636,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-062 `sox-testing`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/sox-testing/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/sox-testing/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/sox-testing/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/sox-testing/SKILL.md`。
 - **原始定位**：官方描述：Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close), building a testing workpaper template, or evaluating and classifying a control deficiency.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
@@ -645,7 +645,7 @@ Anthropic 这批金融 skill 的最大价值，是把金融机构和金融服务
 
 ### FSK-063 `variance-analysis`
 
-- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/variance-analysis/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/variance-analysis/SKILL.md`。
+- **来源与路径**：来自 `anthropic-knowledge-work-finance`，上游路径 `finance/skills/variance-analysis/SKILL.md`，本地路径 `12-financial-ai-skills/upstream-snapshots/anthropic-knowledge-work-finance/skills/variance-analysis/SKILL.md`。
 - **原始定位**：官方描述：Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.
 - **金融业务理解**：这个 skill 属于“财务会计、关账、对账、报表与 SOX 审计支持”领域。适合学习企业财务团队的月结、分录、对账、报表、差异分析和 SOX 控制测试。它对银行运营、财务管理和内控学习有价值，也能启发“AI 如何辅助制作底稿但不替代签字责任”。
 - **AI 工作流价值**：它把一个原本依赖经验的金融任务拆成触发条件、输入材料、处理步骤、输出格式和检查点。对学习者而言，最值得看的不是提示词写法，而是它如何把隐性专家经验显性化。
