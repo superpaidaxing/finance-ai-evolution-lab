@@ -38,3 +38,63 @@
 ## 本周一句话复盘
 
 > 
+
+---
+
+## 2026 年第 24 周（6 月 9 日 – 6 月 15 日）周计划
+
+### 本周建议主题
+
+**检索增强生成（RAG）在银行合规与制度问答中的应用**
+
+选题理由：
+
+1. RAG 是当前大语言模型在银行落地最现实的路径之一——不需要微调模型，只需把内部制度文档向量化后检索+生成。
+2. 银行内部合规制度数量庞大、更新频繁，员工和合规岗位经常需要快速查找规定、解释条款。传统搜索效率低、理解门槛高。
+3. 本主题同时覆盖 AI 能力（向量数据库、嵌入模型、提示词工程）和治理问题（幻觉风险、合规准确性、审计留痕）。
+4. 与本项目 roadmap 第 1 阶段"AI 基础能力"和第 2 阶段"场景深挖"的交叉区域吻合。
+
+### 推荐阅读
+
+| 序号 | 来源 | 标题/方向 | 链接 |
+|------|------|-----------|------|
+| 1 | NIST | AI 风险管理框架：生成式 AI 配套资料（第 3-4 节，关于内容来源和幻觉治理） | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence |
+| 2 | BIS/Basel | 数字金融与操作风险（第三方模型/云服务治理部分） | https://www.bis.org/bcbs/publ/d575.htm |
+| 3 | McKinsey | 银行生成式 AI 与风险合规：如何选择运营模式 | https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-generative-ai-can-help-banks-manage-risk-and-compliance |
+| 4 | UK Finance | 金融服务生成式 AI 行动指南（客户身份识别与合规问答章节） | https://www.ukfinance.org.uk/policy-and-guidance/reports-and-publications/generative-ai-action-opportunities-risk-management-financial-services |
+| 5 | MIT Sloan | AI in Finance 课程大纲（RAG 与领域知识结合部分） | https://mitsloan.mit.edu/sites/default/files/inline-files/2025JA_15.S52_AI%20in%20Finance_Syllabus.pdf |
+
+阅读策略：本周只精读 1-2 篇，其余浏览摘要/目录即可。每篇只记录 3 个核心观点和 1 个与银行制度问答的连接。
+
+### 建议产出
+
+本周结束时，至少完成以下 1-2 项沉淀：
+
+1. **阅读笔记**（存放 `08-reading-notes/`）：选一篇上述材料，写一篇 RAG 在合规问答领域的笔记。
+2. **银行用例卡片**（存放 `04-banking-use-cases/`）：写一个"银行合规制度 RAG 问答助手"用例卡片，包含业务痛点、AI 方案、数据需求、风险治理。
+3. **风险治理清单**（存放 `05-risk-governance-compliance/`）：列出 RAG 系统在银行场景的 5-8 个治理要点（幻觉、来源标注、权限管理、审计留痕等）。
+
+### 每天行动清单
+
+| 日期 | 星期 | 行动 | 预计时间 | 完成标准 |
+|------|------|------|----------|----------|
+| 6 月 9 日 | 一（选题日） | 确认本周主题为"RAG + 银行合规问答"。在 `weekly-review.md` 记下选题理由和完成标准。打开 GitHub Issue 记录本周主线。 | 30 分钟 | 主题已记录，完成标准已写明 |
+| 6 月 10 日 | 二（输入日） | 精读 NIST 生成式 AI 配套资料的第 3-4 节（关于内容来源可靠性与幻觉治理），记录 3 个核心观点到阅读笔记。 | 45 分钟 | 一篇短阅读笔记写入 `08-reading-notes/` |
+| 6 月 11 日 | 三（业务连接日） | 回顾你的银行经验：合规部/风险部日常如何查制度？有什么痛点？RAG 能帮到哪一步？写出业务连接。 | 30 分钟 | 至少写出 1 个真实场景连接 |
+| 6 月 12 日 | 四（AI 方案日） | 设计"银行合规制度 RAG 问答助手"用例草案：输入（员工提问+制度文档库）、输出（回答+来源引用）、评估（准确率、幻觉率、人工复核机制）。 | 45 分钟 | 一个用例草案写入 `04-banking-use-cases/` |
+| 6 月 13 日 | 五（沉淀日） | 整理本周内容：完善用例卡片或风险清单，更新 `weekly-review.md` 复盘部分，关闭/更新 Issue。 | 30 分钟 | GitHub 有一次提交 |
+| 6 月 14 日 | 六（轻实验日，可选） | 用公开合规文本（如 NIST 框架 PDF）做一次 RAG 思路拆解：分块策略、嵌入选择、检索 top-k、提示词模板。不需要跑代码，只画流程。 | 30-60 分钟 | 一个 RAG 流程拆解草稿 |
+| 6 月 15 日 | 日（回顾日） | 看 `weekly-review.md`，写一句话总结。决定下周是否继续 RAG 主题或切换到新场景。 | 15 分钟 | 一句话复盘完成 |
+
+### 本周完成标准
+
+- [ ] 精读至少 1 篇推荐材料并记录笔记
+- [ ] 写出 1 个银行合规 RAG 用例卡片（含业务痛点、AI 方案、风险治理）
+- [ ] 在 `weekly-review.md` 完成本周复盘
+- [ ] 决定下周是否继续本主题
+
+### 注意事项
+
+- 不使用任何真实客户数据或内部银行文件。所有示例使用公开来源（NIST、BIS、McKinsey 等）。
+- 不追求代码实现，本周重点是理解 RAG 机制和银行场景匹配。
+- 如果时间紧，优先完成周二（阅读笔记）和周四（用例草案）。
