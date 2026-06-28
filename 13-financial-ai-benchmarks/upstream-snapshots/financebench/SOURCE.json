@@ -1,0 +1,5 @@
+{
+  "source_repo": "https://github.com/patronus-ai/financebench.git",
+  "source_commit": "cc39aeb4afdf33909ee1412188bf89035950c2eb",
+  "snapshot_note": "Selective learning snapshot copied by Devin; not a full upstream mirror."
+}

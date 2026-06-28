@@ -100,6 +100,7 @@
 ├── 10-archive/                      # 归档
 ├── 11-open-source-finance-ai-projects/ # 开源金融 AI 项目库
 ├── 12-financial-ai-skills/           # 金融 AI 开源 skill、agent plugin 与工作流分析
+├── 13-financial-ai-benchmarks/       # 金融模型能力评测、Benchmark 与公开数据资源
 └── .github/ISSUE_TEMPLATE/          # GitHub Issue 模板
 ```
 
@@ -115,6 +116,7 @@
 - 更新一个风险治理清单到 `05-risk-governance-compliance/`
 - 写一篇阶段性观点到 `09-career-and-output/`
 - 拆解一个开源金融 AI 项目并记录到 `11-open-source-finance-ai-projects/`
+- 调研一个金融模型评测体系并记录到 `13-financial-ai-benchmarks/`
 
 ## 6. GitHub 在线迭代方式
 
