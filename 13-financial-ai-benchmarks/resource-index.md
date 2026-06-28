@@ -80,3 +80,23 @@
 ## 6. 已知上游数据注意事项
 
 - `upstream-snapshots/bizfinbench/datasets/Anomalous_Event_Attribution_v2.jsonl` 按上游 GitHub 原样下载；当前快照的最后一条记录疑似未闭合，严格 JSONL 校验会报错。学习时可先使用 `Anomalous_Event_Attribution.jsonl`，或以后从上游/Hugging Face 重新确认 v2 数据。
+
+
+## 7. 第 2 批新增资源索引
+
+| 路径 | 已下载内容 | 规模 |
+| --- | --- | --- |
+| `upstream-snapshots/finqa/dataset/` | FinQA 财报数值推理数据 | train 6,251；dev 883；test 1,147；private_test 919 |
+| `upstream-snapshots/convfinqa/data.zip` | ConvFinQA 多轮财报数值问答压缩包 | train 3,037；dev 421；turn 版本合计 14,115 条左右 |
+| `upstream-snapshots/tat-qa/dataset_raw/` | TAT-QA 表格 + 文本混合问答 | train 2,201；dev/test 各约 278 个上下文 |
+| `upstream-snapshots/multihiertt/` | MultiHiertt README、评估脚本和配置 | 数据需按上游 Google Drive 说明下载；本仓库保留代码/说明快照 |
+| `upstream-snapshots/lofin-hirec/` | LOFin/HiREC README、数据说明和依赖 | 完整 SEC 文档集合很大；本仓库保留说明快照 |
+| `huggingface-snapshots/finder/` | FinDER 数据卡与 parquet | 5,703 条 query-evidence-answer triplets；未下载 10-K zip |
+| `upstream-snapshots/finance-agent-v2/` | Finance Agent Benchmark v2 README、公开题、工具代码 | 金融 Agent 搜索/EDGAR/网页/行情工具评测样例 |
+| `upstream-snapshots/finova/` | Finova 中文金融 Agent 数据与评估代码 | NER 360、工具策划 258、意图识别 150、表达 100、合规 200、复杂问题 281 |
+| `huggingface-snapshots/financial-phrasebank/` | Financial PhraseBank 数据卡和 zip | 2,264-4,846 条，按标注一致率分版本 |
+| `huggingface-snapshots/fiqa-sentiment-classification/` | FiQA Sentiment 数据卡和 parquet | train 822；valid 117；test 234 |
+| `upstream-snapshots/finsen/` | FinSen 美国新闻情绪 CSV 和 dataloader | 16,969 条美国新闻情绪/市场数据记录 |
+| `upstream-snapshots/finred/` | FinRED README | 关系抽取数据需按上游说明另行访问 |
+
+补充阅读文件：`financial-benchmark-resources-batch-02.md`。

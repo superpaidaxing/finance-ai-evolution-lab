@@ -1,0 +1,5 @@
+{
+  "source_repo": "https://github.com/vals-ai/finance-agent-v2.git",
+  "source_commit": "abae841eadd1467f2865f3699a1dfc0774d44d76",
+  "snapshot_note": "Selective learning snapshot copied by Devin; not a full upstream mirror."
+}

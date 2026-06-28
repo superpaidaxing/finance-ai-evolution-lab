@@ -84,9 +84,11 @@
 ## 4. 本目录文件
 
 - `financial-benchmark-landscape.md`：公开金融评测体系调研总览。
+- `financial-benchmark-resources-batch-02.md`：第 2 批评测资源，补充财报数值推理、长文档 RAG、Agent、情绪与关系抽取。
 - `banking-financial-model-evaluation-blueprint.md`：面向银行场景自建 benchmark 的建议蓝图。
 - `resource-index.md`：已下载资源、数据规模、路径索引。
 - `upstream-snapshots/`：上游项目选择性快照。
+- `huggingface-snapshots/`：Hugging Face 数据卡和公开数据文件快照。
 - `release-downloads/`：公开 release 数据包下载结果。
 
 ## 5. 后续可以迭代的方向
