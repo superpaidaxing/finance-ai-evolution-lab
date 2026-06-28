@@ -1,0 +1,5 @@
+{
+  "source_repo": "https://github.com/finos-labs/Open-Financial-LLMs-Leaderboard.git",
+  "source_commit": "0ebda4ed620af97a3bd0c5bb53f72dbb7f0e6c9f",
+  "snapshot_note": "Selective learning snapshot copied by Devin; not a full upstream mirror."
+}
