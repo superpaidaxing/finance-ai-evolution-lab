@@ -38,3 +38,62 @@
 ## 本周一句话复盘
 
 > 
+
+---
+
+## 2026-09-28 至 2026-10-04：下周建议主题
+
+### 本周主题
+
+**银行客户投诉处理中的生成式 AI 应用：从投诉分类、摘要到根因分析与合规留痕**
+
+### 为什么选它
+
+- 路线图第 2 阶段"场景深挖期"列出的第 1 个重点场景就是"智能客服与投诉处理"，且 `00-meta/weekly-execution-plan.md` 第 3–4 周推荐路线也包含"投诉处理"。
+- 投诉处理是银行从业者最熟悉、数据形态最清晰（非结构化文本 + 结构化工单）、AI 收益最容易量化的场景之一，非常适合练习"业务问题 → AI 用例"的翻译。
+- UK Finance 的生成式 AI 报告把"客户投诉处理"列为金融服务的高优先级用例；McKinsey 的风险合规报告也将投诉洞察视为生成式 AI 在合规领域的典型场景。
+- 投诉处理涉及消费者权益保护、监管报送、数据隐私等治理要求，可以自然过渡到 NIST AI 风险管理框架的学习，为第 4 阶段"治理框架期"铺垫。
+
+### 本周完成标准
+
+- 只研究一个问题：**生成式 AI 能在投诉处理流程的哪几个环节增强人工，边界和人工复核点在哪里？**
+- 产出 1 篇阅读笔记、1 张用例卡片、1 份提示词原型、1 段周复盘。
+
+### 推荐阅读（全部为公开来源）
+
+1. UK Finance：《Generative AI in action: opportunities and risk management in financial services》
+   https://www.ukfinance.org.uk/policy-and-guidance/reports-and-publications/generative-ai-action-opportunities-risk-management-financial-services
+   重点看：客户投诉处理用例、输出可靠性、数据隐私、第三方风险。
+2. McKinsey：《How generative AI can help banks manage risk and compliance》
+   https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-generative-ai-can-help-banks-manage-risk-and-compliance
+   重点看：合规监测、投诉洞察、监管报告自动化三类用例及其风险提示。
+3. NIST：《AI RMF Generative AI Profile》（NIST AI 600-1）
+   https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+   重点看：机密性与数据隐私、有害偏见、信息完整性三类风险，以及对应的建议措施。
+4. 选读：BIS《Digitalisation of finance》相关材料，用来理解监管者对客户保护和操作风险的关注点。
+   https://www.bis.org/bcbs/publ/d575.htm
+
+### 建议产出
+
+- `08-reading-notes/`：新增《UK Finance 生成式 AI 报告——投诉处理用例》阅读笔记（使用 `reading-note-template.md`）。
+- `04-banking-use-cases/`：新增用例卡片《投诉文本分类、摘要与根因分析助手》（使用 `use-case-template.md`），包含输入/输出、AI 能力、评估指标、人工复核点。
+- `07-labs/`：新增一份提示词原型，仅使用**自编模拟投诉文本**（不得使用任何真实客户数据），演示投诉分类 + 摘要 + 情绪/紧急程度判断 + 合规关键词标注。
+- `05-risk-governance-compliance/ai-risk-checklist.md`：补充"投诉处理生成式 AI"专项检查项（隐私脱敏、幻觉、偏见、审计留痕、客户知情）。
+- 本文件：填写周复盘 7 个问题。
+
+### 每天行动清单（每天 30–60 分钟）
+
+- **周一（选题日）**：在本文件写下本周主题、选题理由和完成标准；画一张投诉处理现有流程图（受理 → 分类 → 分派 → 调查 → 回复 → 归档 → 监管报送），标出每个环节人工耗时最多的点。
+- **周二（输入日）**：阅读 UK Finance 报告中的投诉处理和风险管理章节 30–45 分钟，记录一句话总结、3 个核心观点、与银行业务的连接、需要验证的地方，形成阅读笔记。
+- **周三（业务连接日）**：回答 5 个问题：投诉处理在哪个部门/流程出现？过去人工怎么做？当前痛点（分类不一致、回复慢、根因难汇总、报送口径不统一）？AI 能增强哪一步？最大风险是什么？写入用例卡片的业务部分。
+- **周四（AI 方案日）**：把投诉处理翻译为 AI 用例：输入（投诉文本、通话转写、工单字段）、输出（分类、摘要、紧急度、根因标签、回复草稿）、AI 能力（大语言模型分类摘要 + 检索增强生成引用制度）、评估指标（分类准确率、摘要人工修改率、处理时长下降、误判客诉升级率）、人工复核点（回复发出前、涉及赔付或监管报送前）。完成用例卡片。
+- **周五（沉淀日）**：补充 `ai-risk-checklist.md` 的投诉处理专项检查项；提交 GitHub 更新；在本文件回答周复盘 7 个问题。
+- **周六（轻实验日，可选）**：用 5–10 条自编模拟投诉文本，设计一版提示词，让大语言模型输出结构化结果（类别、摘要、情绪、紧急度、是否涉及监管红线），记录效果和失败案例到 `07-labs/`。
+- **周日（回顾日）**：只看本文件，写一句话"本周真正学到什么"，并决定下周是继续深入（例如投诉根因分析与监管报送自动化）还是换题（例如客户身份识别与尽调）。
+
+### 风险与治理提醒
+
+- 全程只使用公开报告和自编模拟数据，不使用任何真实客户投诉、内部制度文件、账号或密钥。
+- 投诉文本天然包含个人信息，用例设计必须把脱敏放在模型输入之前。
+- 回复草稿必须经人工复核后发出；涉及赔付、监管报送、投诉升级的判断不能由模型单独决定。
+- 记录模型输出的引用来源和版本，满足审计留痕要求。
